@@ -1,0 +1,25 @@
+{
+    "intents":[
+         {
+            "tag":"greetings",   
+            "pattern":["hey","hello","good morning","hi","wassup", "good day", "what's up?"],
+            "responses":["Hello!","Hey!","What can i do for you?"]
+        },
+         {
+            "tag":"goodbye",   
+            "pattern":["bye","goodbye","see you later","gone","have a good day", "see ya"],
+            "responses":["Bye :)","See ya","Have a nice day"]
+        },
+         {
+            "tag":"identity",   
+            "pattern":["what's your name","who are you","what should i call you","are you a robot","can you tell me about you selve", "you are"],
+            "responses":["I'm jay","My name is Jay","You can call me jay","I am Jay, an artificial intelligence bot created by Adah"]
+        },
+         {
+            "tag":"sport",   
+            "pattern":["do you like sport","sport","do you play basketball","football"],
+            "responses":["Yes i like sport","I like basketball and football and i'm a steph curry fan"]
+        }
+         
+    ] 
+}
